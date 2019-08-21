@@ -1,0 +1,127 @@
+---
+title: 5. User Stories
+date: "2019-08-21"
+
+---
+
+What you should have now: 
+
+
+Part 1
+- A short pitch for your app
+- A clear explanation of why you are doing this
+- An idea for your MVP 
+- A list of jobs that your users want to accomplish 
+
+Part 2
+- A short list of your main competitors 
+- A table outlining which jobs each competitor is doing
+- A list of jobs that are necessary for you to do
+- Design and feature inspiration
+
+---
+  
+For now, we’re just going to assume your idea is going to work. We’re going to learn by doing. 
+
+Getting bogged down on iterative steps too early is going to slow us down. Instead, we’re going to make a solution and then do our user testing once we have a clickable prototype.  
+
+We’re working under the assumption that we can pivot to solve our users specific problems, but that we’re in the right ball park. We are also going to assume that the market size for our solution is large enough (whatever that means can differ depending on your desired outcome). 
+
+Honestly, I wouldn’t worry about these things if it’s your first app. 
+
+---
+
+*Tasks*
+
+	1. Who are the different users of your app (grouped by their interaction with the app)?
+
+	2. For each user group, what are their user stories? 
+
+	3. For each user story, label it with “v1”, “v2”, and “icebox”. 
+
+	4. For each user story in v1, label it with an importance using Fibonacci numbers (1, 2, 3, 5, 8) 
+
+	5. Review your user stories for each user group and their motivations.
+
+
+*Task Explanation*
+
+	1. Who are the different users of your app (grouped by their interaction with the app)?
+
+We need to separate users of our app into categories. This is going to be general; for example, you might split it into ‘users’ and ‘admins’. We don’t focus on any personas; just on the job the user is performing in the system.  
+
+For example, with Yelp we might have: 
+
+User
+Moderator/Admin
+Business Owner
+
+We might want to split ‘users’ into additional groups, i.e. a “content creator” or even “City Leader” category of user if we think that is necessary for the growth of our app. 
+
+i.e. We want to consider the needs of our power users, and how we can make their lives easier by using the app, so that they are more likely to use it and produce more content that is consumable for our regular users. 
+
+	2. For each user group, what are their user stories?
+
+We have our list of jobs that our users want to accomplish using our app and we’re going to use that to create a list of ‘user stories’. 
+
+Your user stories will follow the format: 
+
+As a ____________, I can ________________________
+
+You want these to be at a task-level granularity. 
+
+i.e.  For google maps:
+
+“As a user I can… 
+
+Find businesses and landmarks around me
+Get directions to a single location 
+See reviews for a single business
+Save a location to add it to my map
+Share a location with my friends
+….
+“
+
+These explain the task the user is trying to accomplish by using the app in one specific instance. 
+
+Some people will write the motivation for each user as part of these user stories — I don’t think that’s necessary, but you may find it helpful to refine your ideas and to think a little bit deeper about the ‘why’ for each user. 
+
+
+	3. For each user story, label it with “v1”, “v2”, and “icebox”. 
+
+We are going to split our app into 3 versions; V1, V2, and icebox. 
+
+We’ve already thought about our MVP (v1) and our version 2. That should help us determine what goes where, and we’ll keep thinking about these as we go.  
+
+For now, you’ll want to include the following in your V1: 
+
+	- any stories that are necessary for your first group of users to find remarkable benefit by using your app instead of alternate solutions 
+	- any stories that are necessary for your app to grow in value that is necessary for the v2 of your app
+	- any stories that would help us test our assumptions early
+ 
+You want to be quite strict about what you keep in your V1; try to make it as lean as possible, but remember that you want to solve your users problems in a way that is significantly better or different (ideally both) than alternate solutions. 
+
+As far as identifiers go, I just use numbers or a “user group”-“number” combination (i.e. “users-1, users-2, admin-1”).
+
+
+4. For each user story in v1, label it with an importance  using squares of 2 (1, 2, 4, 8) 
+
+This helps us identify what we believe are important tasks for our users. 
+
+We’ll refine these as we go — these ‘importance values’ are assumptions that we want to test as we move forward. 
+
+Putting numbers on these will help us:
+ — quantify our beliefs
+ — make sure we aren’t trying to do too much
+ — let us test our assumptions
+
+The importance of each story will be different for each user — but we want to think about the majority of our users, and in particular the majority of our first set of users. 
+
+5. Rework your user stories and versions until you think it makes sense for each user to use the system. 
+
+
+---
+*Output*
+
+- A list of User Stories for your first version, second version, and icebox
+- 
