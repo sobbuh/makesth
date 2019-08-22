@@ -23,3 +23,6 @@ description: "Contents"
 17. Monetization
 18. Growth
 19. Additional topics / Appendix (machine learning, virality, optimizing for learning, web vs mobile, iOS vs android ) (as necessary)
+
+
+<iframe width="442" height="935" src="//invis.io/P2TK4GDKDUA" frameborder="0" allowfullscreen></iframe>
