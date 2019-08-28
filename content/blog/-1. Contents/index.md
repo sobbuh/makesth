@@ -25,4 +25,3 @@ id: 0
 17. Growth
 18. Appendix
 
-<iframe width="442" height="935" src="//invis.io/P2TK4GDKDUA" frameborder="0" allowfullscreen></iframe>
