@@ -1,6 +1,7 @@
 ---
-title: 6. Screen-by-Screen Requirements
-date: "2019-08-21"
+title: 4. Screen-by-Screen Requirements
+date: "2019-08-25"
+description: "Split it up"
 
 ---
 
@@ -69,5 +70,5 @@ The less taps, the better.
 
 *Output* 
 
-A list of all the pages/screens for your app
+- A list of all the pages/screens for your app
 - A list of all the functionality that is required on each screen

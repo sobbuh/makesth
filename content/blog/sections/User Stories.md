@@ -1,6 +1,7 @@
 ---
-title: 5. User Stories
-date: "2019-08-21"
+title: 3. User Stories
+date: "2019-08-24"
+description: "Make it concrete"
 
 ---
 

@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
+import { ClientError } from "graphql-request";
 
 class Layout extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class Layout extends React.Component {
             ...scale(1.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
+            textAlign: 'center',
           }}
         >
           <Link
@@ -27,6 +29,7 @@ class Layout extends React.Component {
             to={`/`}
           >
             {title}
+            <subTitle>a step-by-step guide for going from idea to app</subTitle>
           </Link>
         </h1>
       )

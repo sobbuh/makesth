@@ -8,6 +8,80 @@ footer{
     text-align: center;
 }
 
+mainHeader {
+    text-align: center;
+}
+
+logo {
+    font-weight: bold;
+
+}
+headerDiv {
+    text-align: center;
+}
+
+subTitle {
+    font-size: .3em;
+    display:block;
+    margin-top:-20px;
+
+}
+a {
+    font-weight:100;
+}
+
 a .footer {
     color: #f6be02;
+}
+
+[type=submit]{
+    color: rgb(255, 51, 102);
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+    background: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 51, 102);
+    border-image: initial;
+    border-radius: 100em;
+    margin: auto;
+    outline: 0px;
+    padding: 16px 10px;
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+    width: 160px;
+    letter-spacing:1px;
+    
+}
+
+[type=submit]:hover{
+    background-color: rgb(255,51,102);
+    color: white;
+}
+
+label {
+    color: rgb(153, 153, 153);
+    top: 11px;
+    left: 0px;
+    z-index: -1;
+    text-transform: none;
+    font: 300 16px/28px "Maison Neue", sans-serif;
+    transition: font 0.2s ease-out 0s, top 0.25s ease-out 0s;
+}
+
+
+input {
+    border-bottom: 2px solid rgb(255, 51, 102);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-right: 20px;
+    width: 240px;
+    outline: none;
 }

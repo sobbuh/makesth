@@ -1,28 +1,28 @@
 ---
 title: -1. Contents
-date: "2019-08-21"
+date: "2019-08-20"
 description: "Contents"
+id: 0
+
 ---
 
 1. Idea
-2. Competition, Inspiration & Lookalike Apps 
-3. User Interviews & Survey Methods (V2)
-4. Idea Refinement (V2)
+2. Competition
+3. Narrow it down 
+4. Inspiration & Lookalike Apps
 5. Writing User/Job Stories 
 6. Screen by Screen Requirements 
 7. Wireframes
 8. Prototype 1
 9. User Testing
 10. Mockups & Design System
-11. Prototype 2
-12. Pre-Launch Marketing 
-13. Back End 
-14. Front End 
-15. Launch
-16. Traction
-17. Monetization
-18. Growth
-19. Additional topics / Appendix (machine learning, virality, optimizing for learning, web vs mobile, iOS vs android ) (as necessary)
-
+11. Pre-Launch Marketing 
+12. Back End 
+13. Front End 
+14. Launch
+15. Traction
+16. Monetization
+17. Growth
+18. Appendix
 
 <iframe width="442" height="935" src="//invis.io/P2TK4GDKDUA" frameborder="0" allowfullscreen></iframe>

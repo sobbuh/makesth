@@ -12,6 +12,7 @@ class BlogIndex extends React.Component {
   state = {
     name: null,
     email: null,
+    subscribers: 76
   }
 
   _handleChange = e => {
@@ -22,7 +23,12 @@ class BlogIndex extends React.Component {
 
   _handleSubmit = e => {
     e.preventDefault();
-    addToMailchimp(this.state.email, {name: this.state.name})
+    var newSubs = this.state.subscribers + 1;
+    this.setState({
+      subscribers: newSubs
+    })
+    
+    addToMailchimp(this.state.email)
     .then(({msg, result}) => {
       console.log('msg', `${result}: ${msg}`);
       if (result !== 'success') {
@@ -41,21 +47,29 @@ class BlogIndex extends React.Component {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
     const posts = data.allMarkdownRemark.edges
-
+    const subscribers = this.state.subscribers
     
     return (
       <Layout location={this.props.location} title={siteTitle}>
+        
+        <headerDiv>
         <SEO title="Home" />
 
-        <p> signup for our newsletter to get updates when we release new chapters + examples </p>
-        <form onSubmit={this._handleSubmit}>
-            <input type="text" onChange={this._handleChange} placeholder="name" name="name" />
+        <p> sign up to get updates when we release new chapters + examples</p>
+        
+         <form onSubmit={this._handleSubmit}>
             <input type="email" onChange={this._handleChange} placeholder="email" name="email" />
             <input type="submit" />
+          
           </form>
+       
+        </headerDiv>
 
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
+          const clickable = node.frontmatter.publish || "false"
+
+          if (!title.includes('Example')){
           return (
             <article key={node.fields.slug}>
               <header>
@@ -64,9 +78,11 @@ class BlogIndex extends React.Component {
                     marginBottom: rhythm(1 / 4),
                   }}
                 >
+                  
                   <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                     {title}
                   </Link>
+                  
                 </h3>
               </header>
               <section>
@@ -78,6 +94,7 @@ class BlogIndex extends React.Component {
               </section>
             </article>
           )
+                }
         })}
       </Layout>
     )
