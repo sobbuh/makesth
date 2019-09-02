@@ -69,7 +69,7 @@ class BlogIndex extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           const clickable = node.frontmatter.publish || "false"
 
-          if (!title.includes('Example')){
+          if (!title.includes('ex-')){
           return (
             <article key={node.fields.slug}>
               <header>
