@@ -1,27 +1,29 @@
 ---
-title: 0. Contents
-date: "2019-08-20"
+title: Contents
+date: 0
 description: "Contents"
 id: 0
 
 ---
 
-1. Idea
-2. Competition
+1. Intro
+2. Idea
 3. Narrow it down 
-4. Inspiration & Lookalike Apps
-5. Writing User/Job Stories 
-6. Screen by Screen Requirements 
-7. Wireframes
-8. Prototype 1
-9. User Testing
-10. Mockups & Design System
-11. Pre-Launch Marketing 
-12. Back End 
-13. Front End 
-14. Launch
-15. Traction
-16. Monetization
-17. Growth
-18. Appendix
+4. Competition
+5. Writing User Stories 
+6. Inspiration & Lookalike Apps
+7. Screen by Screen Requirements 
+8. Wireframes 1
+9. Wireframes 2
+10. Prototype 1
+11. User Testing
+12. Mockups & Design System
+13. Pre-Launch Marketing 
+14. Back End 
+15. Front End 
+16. Launch
+17. Traction
+18. Monetization
+19. Growth
+20. Appendix
 
