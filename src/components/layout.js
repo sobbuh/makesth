@@ -66,9 +66,7 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, a
-          {` `}
-          <a class="footer" href="https://www.plusplus.ventures">Plus Plus</a>{' '} Venture
+          © {new Date().getFullYear()}, a plusplus venture
         </footer>
       </div>
     )
