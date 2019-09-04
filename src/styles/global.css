@@ -85,3 +85,36 @@ input {
     width: 240px;
     outline: none;
 }
+
+@media(max-width: 400px){
+    body {
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    #gatsby-focus-wrapper {
+        width: 330px;
+        margin: 12px;
+    }
+    header > h1{
+        font-size: 2em !important;
+        font-weight: 700;
+    }
+
+    input{ 
+        margin-bottom: 24px;
+        margin-right: 0px;
+    }
+    subTitle{
+        font-size: .6em;
+        margin-top: -10px;
+        line-height: 25px;
+    }
+    pre {
+        white-space: pre-wrap;       /* css-3 */
+        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+        white-space: -pre-wrap;      /* Opera 4-6 */
+        white-space: -o-pre-wrap;    /* Opera 7 */
+        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+       }
+}

@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Make Something`,
-    author: `Kyle Mathews`,
+    author: `Sobbuh Behrouzi`,
     description: `A guide to making your first app`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://makesomething.app/`,
     social: {
       twitter: `sobbuh_`,
     },
@@ -60,12 +60,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -76,7 +70,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/icon-48x48.png`,
       },
     },
     `gatsby-plugin-offline`,
