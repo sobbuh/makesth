@@ -6,7 +6,7 @@ id: 0
 
 ---
 
-1. Intro
+1. Intro 
 2. Idea
 3. Narrow it down 
 4. Competition
