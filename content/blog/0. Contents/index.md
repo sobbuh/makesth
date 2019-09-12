@@ -27,3 +27,10 @@ id: 0
 19. Growth
 20. Appendix
 
+### Change Log
+
+September 11
+- made logo
+- changed colors to red ?? why, kinda pointless
+- chapter 8 wireframes (paper) updated
+- chapter 9 wireframes (digital) updated

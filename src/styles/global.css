@@ -28,6 +28,7 @@ subTitle {
 }
 a {
     font-weight:100;
+    color: #EB2F24;
 }
 
 a .footer {
@@ -35,7 +36,7 @@ a .footer {
 }
 
 [type=submit]{
-    color: rgb(255, 51, 102);
+    color: #EB2F24;
     cursor: pointer;
     font-family: "Roboto";
     font-weight: bold;
@@ -47,7 +48,7 @@ a .footer {
     background: transparent;
     border-width: 2px;
     border-style: solid;
-    border-color: rgb(255, 51, 102);
+    border-color:#EB2F24;
     border-image: initial;
     border-radius: 100em;
     margin: auto;
@@ -61,7 +62,7 @@ a .footer {
 }
 
 [type=submit]:hover{
-    background-color: rgb(255,51,102);
+    background-color: #EB2F24;
     color: white;
 }
 

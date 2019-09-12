@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 import { ClientError } from "graphql-request";
+import logo from "../../content/assets/makesomething.png" 
 
 class Layout extends React.Component {
   render() {
@@ -28,7 +29,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title}
+            <img src={logo}></img>
             <subTitle>a step-by-step guide for going from idea to app</subTitle>
           </Link>
         </h1>
