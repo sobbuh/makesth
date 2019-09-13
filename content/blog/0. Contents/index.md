@@ -33,4 +33,15 @@ September 11
 - made logo
 - changed colors to red ?? why, kinda pointless
 - chapter 8 wireframes (paper) updated
+
+September 12
+- updated logo
 - chapter 9 wireframes (digital) updated
+- chapter 10 prototype 1 updated
+- chapter 11 user testing updated
+
+September 13 
+- chapter 11 user testing updated
+- first newsletter released
+- begin chapter 12 
+

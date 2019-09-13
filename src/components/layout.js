@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 import { ClientError } from "graphql-request";
-import logo from "../../content/assets/makesomething.png" 
+import logo from "../../content/assets/logo.png" 
 
 class Layout extends React.Component {
   render() {
