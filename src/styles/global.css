@@ -26,6 +26,15 @@ subTitle {
     margin-top:-20px;
 
 }
+.seventy {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
 a {
     font-weight:100;
     color: #EB2F24;

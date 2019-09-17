@@ -64,6 +64,10 @@ class BlogIndex extends React.Component {
           </form>
        
         </headerDiv>
+        <p className='seventy'> 
+        This is a structured, step by step guide to get you from idea to app. 
+        Each of the chapters below contains a set of tasks which will take you one step closer to launching your first app.
+        </p>
 
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
@@ -73,7 +77,7 @@ class BlogIndex extends React.Component {
           return (
             <article key={node.fields.slug}>
               <header>
-                <h3
+                <h3 className='underlined'
                   style={{
                     marginBottom: rhythm(1 / 4),
                   }}
